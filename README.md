@@ -10,7 +10,9 @@ dockerfile for gitbucket. run on tomcat
 2. docker build
 
 `git clone`
+
 `cd docker-gitbucket`
+
 `sudo docker.io build ubuntu:gitbucket .`
 
 3. docker run 
