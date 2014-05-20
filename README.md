@@ -3,11 +3,11 @@ docker-gitbucket
 
 dockerfile for gitbucket. run on tomcat
 
-1. create gitbucket repositories directory
+#####create gitbucket repositories directory
 
 `mkdir ~/gitbucket`
 
-2. docker build
+#####docker build
 
 `git clone`
 
@@ -15,6 +15,6 @@ dockerfile for gitbucket. run on tomcat
 
 `sudo docker.io build ubuntu:gitbucket .`
 
-3. docker run 
+#####docker run 
 
 `sudo docker.io run -d -p 8080:8080 -v ~/gitbucket:/root/.gitbucket:rw ubuntu:gitbucket`
