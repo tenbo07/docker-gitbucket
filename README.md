@@ -15,6 +15,6 @@ dockerfile for gitbucket. run on tomcat
 
 `sudo docker.io build ubuntu:gitbucket .`
 
-#####docker run 
+#####docker run (mount gitbucket dir)
 
 `sudo docker.io run -d -p 8080:8080 -v ~/gitbucket:/root/.gitbucket:rw ubuntu:gitbucket`
