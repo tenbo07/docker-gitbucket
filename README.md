@@ -9,7 +9,7 @@ dockerfile for gitbucket. run on tomcat
 
 #####pull image unubtu
 
-`docker.io pull ubuntu:14.04`
+`sudo docker.io pull ubuntu:14.04`
 
 #####create gitbucket repositories directory
 
