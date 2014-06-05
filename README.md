@@ -5,7 +5,7 @@ dockerfile for gitbucket. run on tomcat
 
 #####docker install for unubtu 14.04LTS
 
-`apt-get docker.io`
+`sudo apt-get docker.io`
 
 #####pull image unubtu
 
