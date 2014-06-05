@@ -17,7 +17,7 @@ dockerfile for gitbucket. run on tomcat
 
 #####docker build
 
-`git clone`
+`git clone https://github.com/tenbo07/docker-gitbucket.git`
 
 `cd docker-gitbucket`
 
